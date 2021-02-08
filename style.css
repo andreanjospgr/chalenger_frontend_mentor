@@ -1,3 +1,36 @@
-body{
-    background-color: chartreuse;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.menu{
+    background-image: url('./images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 calc((100% - 960px)/2);
+    padding-top: 30px;
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    color: white;
+    padding: 10px;
 }
